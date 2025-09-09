@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "NmI4M2I2MGMtYjc2Ny00NDU1LTkwZjYtY2NjNzFjYjM5ZDcyLmc2RHA2bjA3Q1pPU05rVXVqQTJKanZEVHYtUm1CUF9GUDBNXzJQWGNPQlpGNEhac1BUWnE4anZ2MVBYWHptWnF1Zm1OV08ySUZHenlQX3pGTHdVeGF3.keycloak-0-41048",
+      "domain": "identity.tower.cloud",
+      "path": "/realms/cloud-platform/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KC_AUTH_SESSION_HASH",
+      "value": "\"Cm70L5+WhWaCmViCr/MaYqcsSKbHTOviaveEKZPpHnY\"",
+      "domain": "identity.tower.cloud",
+      "path": "/realms/cloud-platform/",
+      "expires": 1757399091.204071,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJjNzNlOGMwNy1jM2VkLTQwZDItYjdmYy04NDM1Y2E1NzczN2IifQ.eyJleHAiOjE3NTc0MzUwMzYsImlhdCI6MTc1NzM5OTAzNiwianRpIjoiZTkyODc4ZGYtY2YzMC03NDZlLTAzY2ItNjdmMjBhMmE3YzU0IiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS50b3dlci5jbG91ZC9yZWFsbXMvY2xvdWQtcGxhdGZvcm0iLCJzdWIiOiJjOTc1NWE1OS1kZGI5LTRjN2UtODY0Zi1jY2UxZTUxZTFmNTUiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2lkIjoiNmI4M2I2MGMtYjc2Ny00NDU1LTkwZjYtY2NjNzFjYjM5ZDcyIiwic3RhdGVfY2hlY2tlciI6IkZfLVZHYlRfTHUxS01qU0M0RkJKeUhOT1dUUUR6LWxrWnRqT3JHMVFvSmsifQ.H99coacW14hD8Xa56-A457O_H3uDvxm3FyKtCNJPJNRDtbhHb-zxOlb-QZHDvuoCDfOvdaG_-2hXCSS3Bp6nmg",
+      "domain": "identity.tower.cloud",
+      "path": "/realms/cloud-platform/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "Cm70L5-WhWaCmViCr_MaYqcsSKbHTOviaveEKZPpHnY",
+      "domain": "identity.tower.cloud",
+      "path": "/realms/cloud-platform/",
+      "expires": 1757435031.741973,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "selectedOrgId",
+      "value": "1e3830e7-cb36-44c6-bc4d-54280c801722",
+      "domain": "portal.tower.cloud",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjOTc1NWE1OS1kZGI5LTRjN2UtODY0Zi1jY2UxZTUxZTFmNTUiLCJlbWFpbCI6Im5hbmRha2lzaG9yZTc4ODEzMEBnbWFpbC5jb20iLCJuYW1lIjoiTmFuZGEgS2lzaG9yIiwib3JnYW5pemF0aW9ucyI6W3siaWQiOiIxZTM4MzBlNy1jYjM2LTQ0YzYtYmM0ZC01NDI4MGM4MDE3MjIiLCJuYW1lIjoiZ21haWwtbmFuZGFraXNob3JlNzg4MTMwLTE3NTY4Nzc2MzQ1NjIiLCJyb2xlIjoiMjZmODBkZGYtZWM4Yi00ZGEzLTg5OGItY2IyNTQ2YzRhNzU3IiwiYXBwUm9sZUlkIjoiYzcyOWM5ZDktNjE1Yy00N2NlLWJkNmItNTc5MmMzYzYzMTQzIn0seyJpZCI6Ijc0YzE5N2YxLWQ5YjItNDg3My1hYWMyLThkNGFiMjFiMzBjMSIsIm5hbWUiOiJnbWFpbC1kZW1vdXNlci0xNzU3MzIyNTQ5NTY5Iiwicm9sZSI6IjAwNzFhMmRlLWFiMzctNGVhNi1iMzdkLTliYmQ1Y2IzMWYzMiIsImFwcFJvbGVJZCI6IjIzNTBiNWYwLTUzNmItNGE3Mi04YzBlLTdhNDgwNzJmZTFkNSJ9XSwiaWRfdG9rZW4iOiJleUpoYkdjaU9pSlNVekkxTmlJc0luUjVjQ0lnT2lBaVNsZFVJaXdpYTJsa0lpQTZJQ0kzVFhOdlFXcExYMUpFWkZNM1VUY3RlbU55TlZoU01FOUpNRVZDZFRkT05VNWpiQzAzTTBJMWVEVlZJbjAuZXlKbGVIQWlPakUzTlRjek9Ua3pNellzSW1saGRDSTZNVGMxTnpNNU9UQXpOaXdpWVhWMGFGOTBhVzFsSWpveE56VTNNems1TURNMkxDSnFkR2tpT2lJMFltRXhZVFZpWlMxaU16VTVMVE5rWWpJdE1ETmpNQzAzT0RSbU9EQXhOakV5WkdZaUxDSnBjM01pT2lKb2RIUndjem92TDJsa1pXNTBhWFI1TG5SdmQyVnlMbU5zYjNWa0wzSmxZV3h0Y3k5amJHOTFaQzF3YkdGMFptOXliU0lzSW1GMVpDSTZJbU5zYVdWdWRDMW5iV0ZwYkMxdVlXNWtZV3RwYzJodmNtVTNPRGd4TXpBaUxDSnpkV0lpT2lKak9UYzFOV0UxT1Mxa1pHSTVMVFJqTjJVdE9EWTBaaTFqWTJVeFpUVXhaVEZtTlRVaUxDSjBlWEFpT2lKSlJDSXNJbUY2Y0NJNkltTnNhV1Z1ZEMxbmJXRnBiQzF1WVc1a1lXdHBjMmh2Y21VM09EZ3hNekFpTENKemFXUWlPaUkyWWpnellqWXdZeTFpTnpZM0xUUTBOVFV0T1RCbU5pMWpZMk0zTVdOaU16bGtOeklpTENKaGRGOW9ZWE5vSWpvaVJUVlFZVVZHUlhBMVdGVlVUVkZoY0RGelVWOWZaeUlzSW1GamNpSTZJakVpTENKbGJXRnBiRjkyWlhKcFptbGxaQ0k2Wm1Gc2MyVXNJbkp2YkdWeklqcGJJbTltWm14cGJtVmZZV05qWlhOeklpd2laR1ZtWVhWc2RDMXliMnhsY3kxamJHOTFaQzF3YkdGMFptOXliU0lzSW5WdFlWOWhkWFJvYjNKcGVtRjBhVzl1SWwwc0ltNWhiV1VpT2lKT1lXNWtZU0JMYVhOb2IzSWlMQ0p3Y21WbVpYSnlaV1JmZFhObGNtNWhiV1VpT2lKdVlXNWtZV3RwYzJodmNtVTNPRGd4TXpCQVoyMWhhV3d1WTI5dElpd2laMmwyWlc1ZmJtRnRaU0k2SWs1aGJtUmhJaXdpWm1GdGFXeDVYMjVoYldVaU9pSkxhWE5vYjNJaUxDSmxiV0ZwYkNJNkltNWhibVJoYTJsemFHOXlaVGM0T0RFek1FQm5iV0ZwYkM1amIyMGlmUS5ZN2ZiazZHcW9QdFc3WmdLSllMTFJoUGQ3MkVQcVBGcVpSSVpNZVNjZGdoeDJJY1Q1ajdJeURNTUxDYzZ1amZKd1BvUEJpNHRhbXhrMEdKbG1ycTJxZVNXaDBVQ1phOTJWa3F2dHZkQUpNMkM1UDlocjRnbmFFaVlhRE9zRDQ4YUkyR0xyQzVBNmlrUDNBMFlOSkl3YW44Y2hka3EzZENSZEY5em83bVVEeFUyYXByX1dqZU1ybjFoS05vS1prNWR6cVc2cXkyeTM5OC15UUZVUkJIYTI5bkhsaEFHanYxMEJnM0hZd3V1aUM2aklDa1NhcWljdXJveWNwTFFJd3l2WC1uSjRYVUJNWF9NVVBQNjVJejRQNl9OVXFsQlNITUhlcWZtdDVaanU2WUNOYlE5M1NWTE9NeFhyV3BrM3dkb3Nrc19UaThKWTRNMU9kdnExbDlMY1EiLCJpYXQiOjE3NTczOTkwMzYsImV4cCI6MTc1OTk5MTAzNn0.tJf-kpG5RGeCgjIWaI2QyYHWff-DeyKOW5YcrG3TMm0",
+      "domain": "portal.tower.cloud",
+      "path": "/",
+      "expires": 1759991032.981768,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
