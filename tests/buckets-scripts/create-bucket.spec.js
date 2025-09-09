@@ -1,8 +1,12 @@
 import { test, expect } from "@playwright/test";
+import { login, logout } from "../helpers/authHelper.js";
 
-test.use({ storageState: "authState.json" });
+//test.use({ storageState: "authState.json" });
 
 test("Create storage bucket with random name", async ({ page }) => {
+  //login existing user
+  await login(page, "nandakishore788130@gmail.com", "12345");
+
   await page.goto("/storage");
 
   // Click the initial Create button
@@ -30,6 +34,7 @@ test("Create storage bucket with random name", async ({ page }) => {
   // Wait for either redirect to /storage OR timeout after 20 seconds
   try {
     await page.waitForURL(/\/storage$/, { timeout: 20000 });
+    await expect("${bucketName}").toBeVisible();
     console.log(
       `✅ Bucket "${bucketName}" created successfully and redirected to /storage`
     );
@@ -37,4 +42,6 @@ test("Create storage bucket with random name", async ({ page }) => {
     // If no redirect happen, assume bucket already exists or error
     console.log(`⚠️ Bucket "${bucketName}" was not created. Still on page.`);
   }
+
+  await logout(page);
 });
